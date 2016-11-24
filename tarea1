@@ -1,15 +1,14 @@
 Tarea 1
-Generen una clase Persona que inicialice con Nombre, Genero y Edad. Tienen una funcion donde pueden decir algo (en la forma de "<nombre>: <lo que quiere decir>".Tiene una funcion para saludar donde se presenta (saludo, nombre, edad) en el mismo formato.
+Generen una clase Persona que inicialice con Nombre, Genero y Edad. Tienen una función donde pueden decir algo (en la forma de "<nombre>: <lo que quiere decir>"). Tiene una función para saludar donde se presenta (saludo, nombre, edad) en el mismo formato.
 
-Generen las clases Chileno, Argentino, Brasileno, Peruano. Todos heredan de Persona y modifican su saludo donde se presentan.
+Generen las clases Chileno, Argentino, Brasileno, Peruano. Todos heredan de Persona y modifican su saludo donde se presentan. La clase Chileno, Argentino y Peruano sólo agregan su nacionalidad. La clase Brasileno debe cambiar su texto y decir “Oi! Eu Sou <nombre>, <homem/mulher> de <edad> anos”
 
-Generen ademas la clase Familia. La clase puede recibir padre, madre y n hijos. Ademas puede recibir un arreglo de N parientes no directos, todos personas. Para guardar los miembros de la familia ocupe un arreglo asociativo
+Generen además la clase Familia. La clase puede recibir padre, madre y n hijos. Además puede recibir un arreglo de N parientes no directos, todos personas. Para guardar los miembros de la familia ocupe un arreglo asociativo
 
-La clase familia tiene funciones para saber si alguien pertenece a esa familia, ademas de saber si alguien es el padre o el hijo de otra persona. Tiene ademas una funcion para agregar a uno o mas hijos, una funcion para agregar o quitar un pariente no directo y una funcion que agregue una familia completa con una relacion a la otra familia (note que tambien la otra familia debera tener a la primera con la relacion)
+La clase familia tiene funciones para saber si alguien pertenece a esa familia, además de saber si alguien es el padre o el hijo de otra persona. Tiene también una función para agregar a uno o más hijos, una función para agregar o quitar un pariente no directo y una función que agregue una familia completa con una relación a la otra familia (note que también la otra familia deberá tener a la primera con la relación)
 
-Tambien la clase familia saluda y cuando lo hace, todos sus integrantes saludan.Al final todos dicen
+También la clase familia saluda y cuando lo hace, todos sus integrantes saludan. Al final todos dicen “Somos parte de la familia <Apellido Paterno> <Apellido Materno>”. Considere los casos donde la familia solo tiene un padre y una madre.
 
+Genere en código 4 familias, con 4 personas por lo bajo, con dos familias relacionadas entre ellas porque el padre de la familia A es hermano de la familia B. Al menos una de las familias debe constar con un Argentino. Idem con Peruano y Brasileno
 
-Genere en codigo normal 4 familias. Generelas con 4 personas por lo bajo, con dos familias relacionadas entre ellas porque el padre de la familia A es hermano de la familia B . Al menos una de las familias debe constar con un Argentino. Idem con Peruano y Brasileno
-
-Exito
+Éxito
