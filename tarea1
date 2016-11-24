@@ -1,0 +1,15 @@
+Tarea 1
+Generen una clase Persona que inicialice con Nombre, Genero y Edad. Tienen una funcion donde pueden decir algo (en la forma de "<nombre>: <lo que quiere decir>".Tiene una funcion para saludar donde se presenta (saludo, nombre, edad) en el mismo formato.
+
+Generen las clases Chileno, Argentino, Brasileno, Peruano. Todos heredan de Persona y modifican su saludo donde se presentan.
+
+Generen ademas la clase Familia. La clase puede recibir padre, madre y n hijos. Ademas puede recibir un arreglo de N parientes no directos, todos personas. Para guardar los miembros de la familia ocupe un arreglo asociativo
+
+La clase familia tiene funciones para saber si alguien pertenece a esa familia, ademas de saber si alguien es el padre o el hijo de otra persona. Tiene ademas una funcion para agregar a uno o mas hijos, una funcion para agregar o quitar un pariente no directo y una funcion que agregue una familia completa con una relacion a la otra familia (note que tambien la otra familia debera tener a la primera con la relacion)
+
+Tambien la clase familia saluda y cuando lo hace, todos sus integrantes saludan.Al final todos dicen
+
+
+Genere en codigo normal 4 familias. Generelas con 4 personas por lo bajo, con dos familias relacionadas entre ellas porque el padre de la familia A es hermano de la familia B . Al menos una de las familias debe constar con un Argentino. Idem con Peruano y Brasileno
+
+Exito
